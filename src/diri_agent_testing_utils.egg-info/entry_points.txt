@@ -1,2 +1,0 @@
-[pytest11]
-diri_agent_testing = diri_agent_testing_utils.fixtures.pytest_fixtures
