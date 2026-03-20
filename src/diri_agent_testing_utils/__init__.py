@@ -3,6 +3,8 @@ diri-agent-testing-utils
 
 Pytest fixtures, mocks, and test harness for AI agent and LLM testing.
 """
+
+__version__ = "0.1.0"
 from .types import FakeAgentConfig, FakeAgentResponse, FakeToolCall
 from .providers.fake_llm import FakeLLMProvider, ScriptedLLMProvider
 from .providers.protocols import (
